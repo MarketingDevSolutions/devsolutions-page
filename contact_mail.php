@@ -1,9 +1,14 @@
 
 <?php
+
+    ini_set("SMTP","smtp.gmail.com");
+    ini_set("smtp_port", "25");
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         # FIX: Replace this email with recipient email
-        $mail_to = "devcarlosshb98@gmail.com";
+
+        $mail_to = "mtavila07@gmail.com";
         
         
 
@@ -23,9 +28,9 @@
         }
 
         # Mail Content
-        $content = "Name: $name\n";
-        $content .= "Email: $email\n\n";
-        $content .= "Phone: $phone\n";
+        $content = "Nombre:". $name."<br>\n";
+        $content .= "Correo:". $email."<br>\n\n";
+        $content .= "Telefono:". $phone."<br>\n";
         $content .= "Message:\n$message\n";
 
         # email headers.
@@ -37,7 +42,9 @@
         $headers .= "X-Priority: 1" . "\r\n"; 
 
         # Send the email.
+
         $success = mail($mail_to, $subject, $content, $headers);
+
         if ($success) {
             # Set a 200 (okay) response code.
             http_response_code(200);
