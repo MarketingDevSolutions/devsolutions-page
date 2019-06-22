@@ -687,7 +687,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #teams {
-  background-color: #27a599;
+  background-color: #27572A;
   width: 100%;
   position: relative;
   color: #ffffff;
@@ -706,7 +706,7 @@ div#teams {
   font-size: 1.25rem;
   display: block;
   text-transform: capitalize;
-  color: #00bcd4;
+  color: #27572A;
   text-align: center;
 }
 
@@ -1208,7 +1208,7 @@ div#teams {
 -----------------------------------------------------------------*/
 
 .blog {
-  background-color: #6dbdc3;
+  background-color: white;
   padding-top: 6rem;
   padding-bottom: 3rem;
   margin-top: -4rem;
