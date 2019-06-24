@@ -43,11 +43,11 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family:Poppins;
+  font-family:"Poppis";
 }
 
 p{
-  font-family:Roboto;
+ font-family: 'Open sans';
 }
 
 a:hover {
@@ -425,8 +425,7 @@ nav:before {
 
 #showcase {
   height: 98vh;
-  background-image: linear-gradient(to right bottom,
-  rgba(50,139,207, 0.8), rgba(161,218,213, 0.8)), url(../img/showcasebg.jpg);
+  background-image: url(../img/Backgrounds-de-apoyo.jpg);
   background-size: cover;
   background-position: center;
   margin-top: 5.6ems;
@@ -440,6 +439,12 @@ nav:before {
   text-align: center;
   top: 200px;
 }
+
+/*.top-team{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
 
 .showcase-caption h4{
   color: #ffffff;
@@ -534,9 +539,15 @@ nav:before {
 }
 
 .features-section-2-col-1 {
-  background-image: url(../img/hero.jpg);
-  background-position: center;
-  height: 500px;
+  background-image: url(../img/DevSolutions-3D-logo.png);
+  /*background-position: left;*/
+  height: 80vh;
+  width: 10%;
+}
+
+.logo-image{
+  width: 50vw;
+  height: 70vh;
 }
 
 .features-section-2-col-2 {
@@ -676,7 +687,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #teams {
-  background-color: #27a599;
+  background-color: #27572A;
   width: 100%;
   position: relative;
   color: #ffffff;
@@ -695,7 +706,7 @@ div#teams {
   font-size: 1.25rem;
   display: block;
   text-transform: capitalize;
-  color: #00bcd4;
+  color: #27572A;
   text-align: center;
 }
 
@@ -735,6 +746,7 @@ div#teams {
   -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  float: center;
 }
 
 .teams-item * {
@@ -759,7 +771,7 @@ div#teams {
 }
 
 .teams-item h3 {
-  font-family: 'Oswald';
+  font-family: 'Ubuntu';
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
@@ -768,11 +780,23 @@ div#teams {
 }
 
 .teams-item h5 {
+  font-family: 'Ubuntu';
   font-weight: 400;
+  font-size: 14px;
   margin: 0;
   text-transform: uppercase;
   color: #888;
   letter-spacing: 1px;
+}
+
+.teams-item p {
+  font-family: 'Open sans';
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 12px 0;
+   text-align: justify;
+  text-justify: inter-word;
 }
 
 .teams-item .icons i {
@@ -1196,7 +1220,7 @@ div#teams {
 -----------------------------------------------------------------*/
 
 .blog {
-  background-color: #6dbdc3;
+  background-color: white;
   padding-top: 6rem;
   padding-bottom: 3rem;
   margin-top: -4rem;
@@ -1459,14 +1483,14 @@ iframe {
      [ 13 Start Footer ]
 -----------------------------------------------------------------*/
 footer {
-  padding: 80px 0;
-  background-color: #5cacc1;
-  -webkit-clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
-  clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
+  padding: 2em 0;
+  background-color: #27572A;
+  /*-webkit-clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
+  clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);*/
 }
 
 .footer__box {
-  padding-top: 150px;
+  padding-top: 15px;
 }
 
 footer .social a {
