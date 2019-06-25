@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navbar-logo{
 	width: 40%;
 	margin: -13.5% 0;
@@ -9,6 +14,24 @@
 }
 
 .service-img{
+	display: block;
+	width: 90%;
+	margin: 2em auto;
+}
+
+.contact-img{
 	width: 100%;
-	margin: 2em 2em;
+	margin: 2em 1em;
+}
+
+nav{
+	width: 100vw;
+}
+
+#plans{
+	width: 100vw;
+	max-width: 100vw;
+}
+
+#services{
 }
