@@ -223,7 +223,7 @@ nav a {
 }
 
 .navbar-brand{
-  font-size:1rem;
+  font-size:.5rem;
   color:#000 !important;
   font-weight:bold;
 }
