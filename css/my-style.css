@@ -36,3 +36,19 @@ nav{
 .portfolio-img{
 	height: 70vh;
 }
+
+.option-plan{
+	cursor: pointer;
+	width: 20px;
+	height: 50vh;
+}
+
+.selected-option{
+	background-color: blue;
+	color: white;
+}
+
+.center-button{
+	display: block;
+	margin: 2em auto;
+}
