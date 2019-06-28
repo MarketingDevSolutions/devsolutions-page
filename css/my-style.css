@@ -15,7 +15,9 @@ html, body {
 
 .service-img{
 	display: block;
-	width: 90%;
+	width: 100%;
+	height: 60vh;
+	padding: 0;
 	margin: 2em auto;
 }
 
@@ -51,4 +53,15 @@ nav{
 .center-button{
 	display: block;
 	margin: 2em auto;
+}
+
+.html-video{
+  position: relative;
+  display: block;
+  top: 7em;
+  width: 90%;
+  height: 75vh;
+  margin: 5vh auto;
+  padding: 1em auto;
+    /*max-width: 100%;*/
 }
