@@ -140,7 +140,7 @@ table {
      [ 02 Start Buttons ]
 -----------------------------------------------------------------*/
 .button-style {
-  background-color: #56a1c4;
+  background-color: #27572A;
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -153,7 +153,7 @@ table {
   text-transform: uppercase;
   font-weight: 400;
   text-decoration: none !important;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .showcase-btn {
@@ -191,8 +191,37 @@ table {
 
 .button-style:hover,
 .button-style.hover {
-  background-color: #c47135;
+  /* background-color: #27572A; */
+  background-color:  #fff;
+  border: 1px solid;
+  border-color: #000;
+  color: #27572A;
+}
+
+.button-form
+{
+  background-color: #27572A;
+  border: none;
   color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.8rem;;
+  line-height: 1em;
+  outline: none;
+  padding: 0.8rem 2.5rem 0.7rem;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-decoration: none !important;
+  border-radius: 15px;
+}
+
+.button-form:hover
+{
+  background-color: rgb(48, 145, 54);
+  color:  #fff;
+  border: 1px solid;
+  border-color: #000;
 }
 
 /* .button-style:hover:before,
@@ -811,7 +840,15 @@ div#teams {
   position: absolute;
   bottom: 0;
   text-align: center;
-  margin-left: 18%;
+  margin-left: 15%;
+}
+
+.teams-item .ri a{
+margin-left: 15px;
+}
+
+.teams-item .ma a{
+margin-left: 75%;
 }
 
 .teams-item .icons i {
