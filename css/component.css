@@ -34,7 +34,7 @@
 	transform: translateZ(-1500px);
 }
 
-.grid figure,
+.portfolio-figure,
 .grid .placeholder {
 	width: 340px;
 	/*height: 300px;*/
