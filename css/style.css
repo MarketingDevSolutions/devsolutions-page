@@ -727,7 +727,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #teams {
-  background-color: #27572A;
+  background: linear-gradient(to bottom,  #27572A 0%, rgba(10,10,9,1) 100%);
   width: 100%;
   position: relative;
   color: #ffffff;
@@ -1536,7 +1536,7 @@ iframe {
 -----------------------------------------------------------------*/
 footer {
   padding: 2em 0;
-  background-color: #27572A;
+  background: linear-gradient(to bottom,  #27572A 0%, rgba(10,10,9,1) 100%);
   /*-webkit-clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
   clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);*/
 }
