@@ -582,12 +582,12 @@ nav:before {
 
 .logo-image{
   width: 50vw;
-  height: 70vh;
+  height: 66vh;
 }
 
 .features-section-2-col-2 {
   background-color: #f7f7f7;
-  height: 500px;
+  height: 498px;
   padding: 30px;
 }
 
@@ -613,7 +613,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #services {
-  padding-top: 10px;
+  padding-top: 5px;
 }
 
 #services .container .row 
