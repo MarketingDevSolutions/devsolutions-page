@@ -140,7 +140,7 @@ table {
      [ 02 Start Buttons ]
 -----------------------------------------------------------------*/
 .button-style {
-  background-color: #27572A;
+  background: linear-gradient(to left,  black 0%, #2B2927 100%);
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -323,7 +323,7 @@ a.navbar-brand {
 }
 
 .activate-menu {
-  background-image: linear-gradient(-140deg, #2c7dbc 15%, #7cccc5 70%);
+  background: linear-gradient(to left,  black 0%, #2B2927 100%);
   -webkit-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
   box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
 }
@@ -613,6 +613,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #services {
+  background: linear-gradient(to left,  black 0%, #2B2927 100%);
   padding-top: 5px;
 }
 
@@ -727,7 +728,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #teams {
-  background: linear-gradient(to bottom,  #27572A 0%, rgba(10,10,9,1) 100%);
+  background: linear-gradient(to left,  black 0%, #2B2927 100%);
   width: 100%;
   position: relative;
   color: #ffffff;
@@ -1536,7 +1537,7 @@ iframe {
 -----------------------------------------------------------------*/
 footer {
   padding: 2em 0;
-  background: linear-gradient(to bottom,  #27572A 0%, rgba(10,10,9,1) 100%);
+  background: linear-gradient(to left,  black 0%, #2B2927 100%);
   /*-webkit-clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);
   clip-path: polygon(51% 46%, 100% 73%, 100% 100%, 0 100%, 0 70%);*/
 }
