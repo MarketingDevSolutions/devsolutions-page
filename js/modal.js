@@ -1,8 +1,3 @@
-//Plays video
-var video = document.getElementById('video');
-video.autoplay=true;
-video.load(); 
-
 // Get the modal
 var modal = document.getElementById("modal");
 
