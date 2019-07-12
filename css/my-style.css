@@ -74,15 +74,15 @@ nav{
 }
 
 video {
-	right: 0;
-	bottom: 0;
+	position: relative;
+	top: 1.7em;
 	min-width: 90%; 
 	min-height: 100%;
 	width: 100vw;
 	height: 100vh;
-	margin-bottom: 0;
+	margin-bottom: 1.5em;
 	margin-left: 0;
-	z-index: -10;
+	/*z-index: -10;*/
 	object-fit: fill;
 }
 
@@ -100,7 +100,7 @@ video {
 
 .coloring{
 	height: 1vh;
-	background: linear-gradient(to right, #00987A 0%, #153709 100%);
+	background: #00987A;
 }
 
 .white{

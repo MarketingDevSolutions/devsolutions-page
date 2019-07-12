@@ -140,7 +140,7 @@ table {
      [ 02 Start Buttons ]
 -----------------------------------------------------------------*/
 .button-style {
-  background: linear-gradient(to left,  black 0%, #2B2927 100%);
+  background: #00987A;
   border: transparent;
   color: #ffffff;
   cursor: pointer;
@@ -193,7 +193,7 @@ table {
 .button-style.hover {
   border: 1px solid white;
   border-color: #000;
-  color:  #00987A ;
+  color:  black ;
 }
 
 .button-form
@@ -427,7 +427,7 @@ nav:before {
     color: transparent;
   }
 
-  .feature-box:hover {
+  .feature-box:hover, .teams-item:hover {
     transform: translateY(-1.5rem) scale(1.03);
   }
 
@@ -729,7 +729,7 @@ nav:before {
 -----------------------------------------------------------------*/
 
 #teams {
-  background: linear-gradient(to left,  black 0%, #2B2927 100%);
+  background: #00987A;
   width: 100%;
   position: relative;
   color: #ffffff;
@@ -761,17 +761,14 @@ div#teams {
     margin-bottom: 4.125rem;
 }
 
-.teams-item {
-  background-color: #ffffff;
-  height: 400px;
-}
-
 .teams-items-img img {
   display: block;
   width: 100%;
 }
 
 .teams-item {
+  background-color: rgba(255, 255, 255, 0.4);
+  height: 400px;
   font-family: 'Lato', Arial, sans-serif;
   position: relative;
   display: inline-block;
@@ -780,8 +777,7 @@ div#teams {
   min-width: 250px;
   max-width: 310px;
   width: 100%;
-  background-color: #ffffff;
-  color: #2B2B2B;
+  color: white;
   text-align: center;
   font-size: 16px;
   border-radius: 5px;
@@ -789,6 +785,7 @@ div#teams {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   float: center;
+  transition: transform .3s;
 }
 
 .teams-item * {
@@ -813,28 +810,30 @@ div#teams {
 }
 
 .teams-item h3 {
-  font-family: 'Ubuntu';
+  font-family: 'Work Sans';
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   margin: 3px 0;
+  color: black;
 }
 
 .teams-item h5 {
+  font-family: 'Work Sans';
   font-weight: 400;
   margin: 8px 0;
   text-transform: uppercase;
   font-size: 12px;
-  color: #888;
+  color: black;
   letter-spacing: 1px;
 }
 
 .teams-item p {
   font-family: 'Work Sans';
   margin-top: 16px;
-  color: #000;
   font-size: 14px;
+  color: black;
 
 }
 
@@ -854,7 +853,7 @@ margin-left: 75%;
 }
 
 .teams-item .icons i {
-  color: #999;
+  color: black;
   display: inline-block;
   margin-right: 5px;
   font-size: 1.5em;
