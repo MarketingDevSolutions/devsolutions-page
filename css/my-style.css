@@ -83,6 +83,7 @@ video {
 	margin-bottom: 0;
 	margin-left: 0;
 	z-index: -10;
+	object-fit: fill;
 }
 
 .video-content {
@@ -107,7 +108,7 @@ video {
 }
 
 @media (max-width: 705.98px) {
-	.video-content p, .video-content h3 {
+	.video-content h4 {
 		display: none;
 	}
 

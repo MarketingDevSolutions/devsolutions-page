@@ -141,7 +141,7 @@ table {
 -----------------------------------------------------------------*/
 .button-style {
   background: linear-gradient(to left,  black 0%, #2B2927 100%);
-  border: none;
+  border: transparent;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
@@ -191,8 +191,7 @@ table {
 
 .button-style:hover,
 .button-style.hover {
-  background-color:  white;
-  border: 1px solid;
+  border: 1px solid white;
   border-color: #000;
   color:  #00987A ;
 }
@@ -321,6 +320,9 @@ a.navbar-brand {
   color: #0dd;
 }
 
+.transparent{
+  background: transparent;
+}
 .activate-menu {
   background: linear-gradient(to left,  black 0%, #2B2927 100%);
   -webkit-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
