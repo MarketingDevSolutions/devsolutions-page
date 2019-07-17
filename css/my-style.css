@@ -108,6 +108,9 @@ video {
 }
 
 @media (max-width: 705.98px) {
+	video{
+		height: 55vh;
+	}
 	.video-content h4 {
 		display: none;
 	}
