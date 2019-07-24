@@ -1,6 +1,6 @@
 window.onscroll = function changeNav(){
     var navBar = document.getElementById('navBar'),
-  	secondSection = document.getElementById('services'),
+  	secondSection = document.getElementById('footer'),
           secondSectionTop = secondSection.getBoundingClientRect().top, 
           navBarHeight = navBar.getBoundingClientRect().height;
 

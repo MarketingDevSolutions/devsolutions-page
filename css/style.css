@@ -40,6 +40,7 @@
 
 body{
   font-size:15px;
+  
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -1605,4 +1606,549 @@ footer p {
 -----------------------------------------------------------------*/
 
 
+
+/* Page SERVICES */
+
+
+.page-title
+{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+
+.page-title h2
+{
+margin: auto;
+color: white;
+padding-top: 12%;
+}
+
+.page-title .borderbottom2
+{
+     padding-top: 2%;
+    width: 70%;
+    margin:  auto;
+    border-bottom: #2F4F4F 3px solid;
+}
+
+.services-dev 
+{
+  padding-top: 5%;
+}
+
+.services-dev .borderbottom3
+{
+   padding-top: 5%;
+    width: 70%;
+    margin:  auto;
+    border-bottom: #2F4F4F 3px solid;
+}
+
+.serv-devweb .img-devweb img 
+{
+  width: 100%;
+}
+
+.serv-devweb .text-devweb h2
+{
+  padding: 5% 5%;
+}
+
+.serv-devweb .text-devweb p
+{
+  font-style: italic;
+  padding: 5% 5%;
+}
+
+.serv-devweb .text-devweb h2, .serv-devweb .text-devweb p 
+{
+  color: #fff;
+}
+
+.serv-mark
+{
+  padding-top: 4%;
+}
+
+.serv-mark .img-mark img
+{
+  width: 100%;
+}
+
+.serv-mark .text-mark h2 
+{
+  padding: 5% 5%;
+  color: #fff;
+}
+
+.serv-mark .text-mark p 
+{
+  color: #fff;
+  font-style: italic;
+  padding: 5% 5%;
+
+}
+
+.serv-advertising
+{
+  padding-top: 4%;
+}
+
+.serv-advertising .img-advertising img
+{
+  width: 100%;
+}
+
+.serv-advertising .text-advertising h2 
+{
+  padding: 5% 5%;
+  color: #fff;
+}
+
+.serv-advertising .text-advertising p 
+{
+   color: #fff;
+  font-style: italic;
+  padding: 5% 5%;
+}
+
+.serv-graphic
+{
+  padding-top: 4%;
+}
+
+.serv-graphic .img-graphic img 
+{
+  width: 100%;
+}
+
+.serv-graphic .text-graphic h2 
+{
+  padding: 5% 5%;
+  color: #fff;
+}
+
+.serv-graphic .text-graphic p 
+{
+   color: #fff;
+  font-style: italic;
+  padding: 5% 5%;
+}
+
+.serv-videomark
+{
+  padding-top: 4%;
+}
+
+.serv-videomark .img-videomark img 
+{
+  width: 100%;
+}
+
+.serv-videomark .text-videomark h2 
+{
+  padding: 5% 5%;
+  color: #fff;
+}
+
+.serv-videomark .text-videomark p 
+{
+   color: #fff;
+  font-style: italic;
+  padding: 5% 5%;
+}
+
+.serv-networks
+{
+  padding-top: 4%;
+}
+
+.serv-networks .img-networks img 
+{
+  width: 100%;
+}
+
+.serv-networks .text-networks h2 
+{
+  padding: 5% 5%;
+  color: #fff;
+}
+
+.serv-networks .text-networks p 
+{
+   color: #fff;
+  font-style: italic;
+  padding: 5% 5%;
+}
+
+.serv-seo 
+{
+  padding-top: 4%;
+}
+
+.serv-seo 
+{
+  padding-top: 4%;
+}
+
+.serv-seo .img-seo img 
+{
+  width: 100%;
+}
+
+.serv-seo .text-seo h2 
+{
+  padding: 5% 5%;
+  color: #fff;
+}
+
+.serv-seo .text-seo p 
+{
+   color: #fff;
+  font-style: italic;
+  padding: 5% 5%;
+}
+/* 
+@media(max-width: 667px)
+{
+  .page-title 
+  {
+    padding-top: 5%;
+    height: 160px;
+  }
+
+
+} */
+
+/* PORTFOLIO PAGE */
+
+.portfolio h3
+{
+  text-align: center;
+  color: #fff;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.portfolio .proyect1-title h4 
+{
+  color: #fff;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+
+.portfolio .proyect1 img 
+{
+  width: 100%;
+}
+
+.portfolio .proyect2-title h4 
+{
+  color: #fff;
+  text-align: center;
+  margin: 4% 0;
+}
+
+.portfolio .proyect2 img 
+{
+  width: 100%;
+}
+
+.portfolio .borderbottom4
+{
+   padding-top: 5%;
+    width: 70%;
+    margin:  auto;
+    border-bottom: #2F4F4F 3px solid;
+}
+
+/* TEAM PAGE */
+
+.team h3
+{
+  text-align: center;
+  color: #fff;
+  margin-top: 6%;
+  margin-bottom: 4%;
+}
+
+.team .single-team
+{
+  position: relative;
+  transition: 0.5s;
+  margin-top: 4%;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.team .single-team img 
+{
+  border-radius: 50%;
+  margin-bottom: 20px;
+  width: 110px;
+  border: 5px solid #fafafa;
+  margin-top: 30px;
+}
+
+.team .single-team h3 
+{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.team .single-team .socials 
+{
+  margin-top: 18px;
+}
+
+.team .single-team p 
+{
+  margin-bottom: 0;
+}
+
+.team .single-team .side-two 
+{
+  padding: 60px 20px;
+  text-align: center;
+  background: #088A68; 
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.team .single-team .socials a 
+{
+  color: #262626;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #fafafa;
+  display: inline-block;
+}
+
+.team .single-team .socials a i 
+{
+  padding-top: 10px;
+}
+
+.team .single-team .socials a:hover 
+{
+  background: #262626;
+}
+
+.team .single-team .socials a:hover i 
+{
+  color: #fff;
+  transform: scale(1.2);
+  transition: 0.9s;
+}
+
+.team .single-team .side-one 
+{
+  background: #2F4F4F;
+  padding: 15px;
+  bottom: 0;
+  transition: .5s;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  z-index: 10;
+}
+
+.team .single-team:hover .side-one 
+{
+  bottom: -300px;
+  transition: 0.5s;
+}
+
+.team .borderbottom5
+{
+   padding-top: 5%;
+    width: 70%;
+    margin:  auto;
+    border-bottom: #2F4F4F 3px solid;
+}
+
+/* CONTACT PAGE */
+
+.contact .contact__form button 
+{
+  width: 100%;
+}
+
+.contact .alert-msj
+{
+  font-size: 20px;
+ text-align: center;
+  width: 100%;
+}
+
+.contact .borderbottom6
+{
+   padding-top: 5%;
+    width: 70%;
+    margin:  auto;
+    border-bottom: #2F4F4F 3px solid;
+}
+
+@media(max-width:768px)
+{
+  .page-title
+  {
+    margin-top: 40px;
+  }
+
+  .services-dev
+  {
+  
+  padding-top: 12%;
+  }
+
+  .serv-devweb .text-devweb h2
+  {
+    padding: 1% 5%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .serv-devweb .text-devweb p
+  {
+     color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1% 5%;
+  }
+
+  .serv-mark .text-mark h2 
+  {
+    padding: 1% 5%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .serv-mark .text-mark p 
+  {
+    color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1% 5%;
+
+  }
+
+  .serv-advertising .text-advertising h2 
+  {
+    padding: 1% 5%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .serv-advertising .text-advertising p
+  {
+    color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1% 5%;
+  }
+
+  .serv-graphic .text-graphic h2
+  {
+    padding: 1% 5%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .serv-graphic .text-graphic p 
+  {
+    color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1% 5%;
+  }
+
+  .serv-videomark .text-videomark h2 
+  {
+    padding: 1% 5%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .serv-videomark .text-videomark p 
+  {
+    color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1% 5%;
+  }
+
+  .serv-networks .text-networks h2 
+  {
+    padding: 1% 5%;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .serv-networks .text-networks p 
+  {
+    color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1% 5%;
+  }
+
+  .serv-seo .text-seo h2 
+  {
+    padding: 1% 5%;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .serv-seo .text-seo p 
+  {
+     color: #fff;
+    font-style: italic;
+    font-size: 14px;
+    padding: 1% 5%;
+  }
+
+  .serv-seo 
+  {
+    margin-bottom: 10%;
+  }
+  
+  .portfolio
+  {
+    padding-top: 8%;
+    
+  }
+
+  .portfolio .proyect1-title 
+  {
+    margin-top: 5%;
+  }
+
+  .portfolio .proyect2 
+  {
+    margin-bottom: 5%;
+  }
+
+  .team h3
+  {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    padding-bottom: 5%;
+  }
+
+
+}
 

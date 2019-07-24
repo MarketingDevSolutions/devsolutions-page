@@ -8,7 +8,7 @@
 
         # FIX: Replace this email with recipient email
 
-        $mail_to = "devsolutionbusiness@gmail.com";
+        $mail_to = "devsolutionsbusiness@gmail.com";
         
         
 
