@@ -107,6 +107,10 @@ video {
 	color: white;
 }
 
+.menu-responsive{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
 @media (max-width: 705.98px) {
 	.video-content h4 {
 		display: none;
